@@ -82,8 +82,9 @@ ASSIGNMENT GOAL:
 name = input('Please enter a name: ')
 age = int(input('Please enter an age: '))
 height = float(input('Please enter a height: '))
-is_student = bool(input('Please enter whether or not you are a student: '))
-
+is_student = bool(input('Please enter whether or not you are a student: ')) #This command does not function. You informed me through a Discord DM-
+#the answer was in the code and that I had to do nothing with the code.
+  
 
 
 displayValues(name,age,height,is_student)
