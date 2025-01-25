@@ -35,7 +35,7 @@ Fahrenheit: 25
 Celsius: -3.89
 '''
 import math #importing math module for mathematical functions
-fahrenheit=float(input('Fahrenheit: '))#input for Fahrenheit
+fahrenheit=float(input('Fahrenheit: '))#input for fahrenheit
 celsius=((fahrenheit - 32)*(5/9)) #equation to convert fahrenheit to celsius
 #formating output with f-string
 txt = f"""Fahrenheit: {math.floor(fahrenheit)} 
